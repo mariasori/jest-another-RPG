@@ -3,6 +3,7 @@ const Potion = require('../lib/Potion');
 jest.mock('../lib/Potion');
 
 const Player = require('../lib/Player');
+const Enemy = require('../lib/Enemy');
 
 test('creates a player object', () => {
     const player = new Player('Dave');
@@ -90,3 +91,4 @@ test('uses a potion from inventory', () => {
     
     expect(player.inventory.length).toBeLessThan(oldCount);
 });
+
