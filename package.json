@@ -1,7 +1,6 @@
 {
   "name": "jest-another-rpg",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "jest"
@@ -21,5 +20,9 @@
   },
   "dependencies": {
     "inquirer": "^8.2.0"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "description": ""
 }
